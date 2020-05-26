@@ -10,3 +10,11 @@ To install numpy
 ```
 $ pip install numpy
 ```
+To install matplotlib
+```
+$ pip install matplotlib
+```
+To install tensorflow
+```
+$ pip install --upgrade tensorflow
+```
