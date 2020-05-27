@@ -29,5 +29,6 @@ $ pip install tensorflow
 10. Pass these individual images through Convolution Neural Network to predict digits.
 11. Arrage the predicted numbers in 9x9 grid.
 12. Apply Backtracking to solve the sudoku.
-13. Display solved sudoku on original image.
+13. Calculate centroid of each unsolved cell.
+14. Display solved sudoku number on each centroid.
 ```
