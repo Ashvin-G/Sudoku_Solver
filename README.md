@@ -19,7 +19,7 @@ $ pip install tensorflow
 ```
 1. Read sudoku image as an input.
 2. Resize and convert it to grayscale image.
-3. Apply thresholding and inverse all the bits so that the digits appears in white color.
+3. Apply thresholding and inverse all the bits so that the digits appears in white pixel.
 4. Find contours and select largest contour as sudoku grid.
 5. Detect the corners of the grid.
 6. Warp the image to get correct perspective.
