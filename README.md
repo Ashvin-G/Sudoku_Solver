@@ -25,7 +25,7 @@ $ pip install tensorflow
 6. Warp the image to get correct perspective.
 7. Split the image into 9x9 image grid.
 8. Crop each 9x9 image grid to remove other noise.
-9. Evaluate percentage of white pixels in each 9x9 image. If percentage of white pixel iscell than certain threshold replace it with zero.
+9. Evaluate percentage of white pixels in each 9x9 image. If percentage of white pixel is less than certain threshold replace it with zero.
 10. Pass these individual images through Convolution Neural Network to predict digits.
 11. Arrage the predicted numbers in 9x9 grid.
 12. Apply Backtracking to solve the sudoku.
