@@ -17,15 +17,15 @@ $ pip install tensorflow
 ```
 ### Approach
 ```
-1. Read sudoku image as an input.
-2. Resize and convert it to grayscale image.
-3. Apply thresholding and inverse all the bits so that the digits appears in white pixel.
-4. Find contours and select largest contour as sudoku grid.
-5. Detect the corners of the grid.
-6. Warp the image to get correct perspective.
-7. Split the image into 9x9 image grid.
-8. Crop each 9x9 image grid to remove other noise.
-9. Evaluate percentage of white pixels in each 9x9 image. If percentage of white pixel is less than certain threshold replace it with zero.
+1.  Read sudoku image as an input.
+2.  Resize and convert it to grayscale image.
+3.  Apply thresholding and inverse all the bits so that the digits appears in white pixel.
+4.  Find contours and select largest contour as sudoku grid.
+5.  Detect the corners of the grid.
+6.  Warp the image to get correct perspective.
+7.  Split the image into 9x9 image grid.
+8.  Crop each 9x9 image grid to remove other noise.
+9.  Evaluate percentage of white pixels in each 9x9 image. If percentage of white pixel is less than certain threshold replace it with zero.
 10. Pass these individual images through Convolution Neural Network to predict digits.
 11. Arrage the predicted numbers in 9x9 grid.
 12. Apply Backtracking to solve the sudoku.
