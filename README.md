@@ -32,3 +32,5 @@ $ pip install tensorflow
 13. Calculate centroid of each unsolved cell.
 14. Display solved sudoku number on each centroid.
 ```
+### Result
+![](result/output.png)
