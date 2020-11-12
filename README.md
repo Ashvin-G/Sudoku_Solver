@@ -7,6 +7,8 @@
  2. Numpy
  3. Matplotlib
  4. Tensorflow
+ 5. Jupyter Notebook
+
  
  You can install these packages by following command.
  ```
@@ -14,6 +16,7 @@ $ pip install opencv-python
 $ pip install numpy
 $ pip install matplotlib
 $ pip install tensorflow
+$ pip install jupyter
 ```
 ### Approach
 ```
